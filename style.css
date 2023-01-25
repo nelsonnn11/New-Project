@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #e8e8e8;
+    background-color: #bebebe;
     color: #011a32;
     font: 16px/1.25 'Raleway', sans-serif;
     text-align: center;
@@ -172,3 +172,9 @@ a:hover {
   transition: 1s all ease-out;
 }
 
+#places {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
