@@ -8,7 +8,7 @@ $(window).scroll(function() {
     }
 });
 
-// Mobile Navigation
+// WAVES
 $('.mobile-toggle').click(function() {
     if ($('.main_h').hasClass('open-nav')) {
         $('.main_h').removeClass('open-nav');
@@ -24,7 +24,6 @@ $('.main_h li a').click(function() {
     }
 });
 
-// navigation scroll lijepo radi materem
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;
