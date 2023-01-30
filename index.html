@@ -2,89 +2,184 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<div class="header">
-
-<!--Content before waves-->
-<div class="inner-header flex">
-<h1>Places to Visit Around the World</h1>
-</div>
-
-<!--Waves Container-->
-<div>
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-</g>
-</svg>
-</div>
-<!--Waves end-->
-
-</div>
-<!--Header ends-->
-      
-      <div id="places">
-      <h1>South Island, New Zealand</h1>
-        <div class="center">
-        <p id="text">The South Island of New Zealand is renowned for its mountains, lakes and glaciers. The Southern Alps, home to 3,724m-high Aoraki Mt. Cook, run along the entire length of the island. In the southwest is Fiordland National Park, with steep-sided Milford Sound. In the north is Abel Tasman National Park, known for its trails and ocean kayaking. Queenstown is famed for adventure sports like bungee jumping and skiin The Island is well-known for its lakes, glaciers and lush green mountains. The Southern Alps can be found here as well as many national parks and reserves. New Zealand's South Island is now booming because of all the wonderful opportunities that it offers to its tourists Like many other countries, New Zealand bears the scars of colonization with a society almost entirely composed of immigrants. Kiwis however, don't delve in the past. They are open-minded, friendly and welcoming of other nationalities and cultures.</p>
+	<!-- 	Sticky Top NavBar -->
+	<nav class="navbar sticky-top bg-body-tertiary">
+		<div class="container-fluid"> 
+      <a class="navbar-brand" href="#">Navigation</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Zealand">New Zealand</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Paris">Paris</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Bora">Bora Bora</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#UAE">Dubai</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Maldives">Maldives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Mauii">Mauii</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Turks">Turks and Caicos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Rome">Rome</a>
+        </li>
+        
     </div>
-        <div id="pictures">
-         <img src="img/south.png" alt="me" width="500" height="350">
-        </div>
-         <h1>Paris, France</h1>
-      <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré. Paris is one of the most expensive cities to visit in Europe. Whilst there are cheap and free activities, the city is famous for its art galleries and fine dining that you won't want to miss completely when visiting Paris. September and October are arguably the best months to be in Paris — a brisk breeze seeps into the air, Paris Fashion Week is in full force, and turning leaves line the city's most scenic jardins. Finally, November and December bring seasonal cheer, French delicacies, and galette des rois in shop windows.<p>
-         <div id="pictures">
-         <img src="img/paris.png" alt="me" width="500" height="350">
-         </div>
-         <h1>Bora Bora, French Polynesia</h1>
-      <p>Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a popular luxury resort destination where some guest bungalows are perched over the water on stilts. At the island's center rises Mt. Otemanu, a 727m dormant volcano.
-Bora Bora is world-famous for its vibrant turquoise lagoon, soft, white sandy stretches of beach and luxurious resorts. With such a dreamlike setting, this magical island is, unsurprisingly, a great spot to plan a getaway.</p>
-         <div id="pictures">
-         <img src="img/bora.png" alt="me" width="500" height="350">
-         </div>
-          <h1>Dubai, United Arab Emirates</h1>
-      <p>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.Dubai is, in fact, one of the safest Middle Eastern cities for tourists. Its stricter laws mean that crime is kept to a minimum, and many tourists feel much safer in Dubai than they do in other parts of the globe. </p>
-         <div id="pictures">
-        <img src="img/dubai.png" alt="me" width="500" height="350">
-         </div>
-          <h1>Maldives</h1>
-      <p>The Maldive Islands are a series of coral atolls built up from the crowns of a submerged ancient volcanic mountain range. All the islands are low-lying, none rising to more than 6 feet (1.8 metres) above sea level. Barrier reefs protect the islands from the destructive effects of monsoons. The rainy season, from May to August, is brought by the southwest monsoon; from December to March the northeast monsoon brings dry and mild winds. The average annual temperature varies from 76 to 86 °F (24 to 30 °C). Rainfall averages about 84 inches (2,130 mm) per year. The atolls have sandy beaches, lagoons, and a luxuriant growth of coconut palms, together with breadfruit trees and tropical bushes. Fish abound in the reefs, lagoons, and seas adjoining the islands; sea turtles are caught for food and for their oil, a traditional medicine.</p>
-         <div id="pictures">
-        <img src="img/maldives.png" alt="me" width="500" height="350">
-         </div>
-          <h1>Mauii, Hawaii</h1>
-      <p>Maui is an island in the Central Pacific, part of the Hawaiian archipelago. Sprawling Haleakala National Park encompasses the island’s highest peak, volcanic Haleakala, as well as the pools and waterfalls of Ohe’o Gulch, accessed via scenic, winding Hana Highway. The island's 30 miles of beaches include golden-crescent Kapalua, sheltered from strong currents by lava-rock promontories. Maui, known also as “The Valley Isle,” is the second largest Hawaiian island. The island beloved for its world-famous beaches, the sacred ʻĪao Valley, views of migrating humpback whales (during winter months), farm-to-table cuisine and the magnificent sunrise and sunset from Haleakalā.</p>
-         <div id="pictures">
-        <img src="img/mauii.png" alt="me" width="500" height="350">
-         </div>
-          <h1>Turks and Caicos</h1>
-      <p>Turks and Caicos is an archipelago of 40 low-lying coral islands in the Atlantic Ocean, a British Overseas Territory southeast of the Bahamas. The gateway island of Providenciales, known as Provo, is home to expansive Grace Bay Beach, with luxury resorts, shops and restaurants. Scuba-diving sites include a 14-mile barrier reef on Provo’s north shore and a dramatic 2,134m underwater wall off Grand Turk island. For most first time visitors, the best time to visit the Turks and Caicos is February, March, and April. These months offer the best combination of weather, prices, and availability. Late August, September, October, and early November typically have the lowest accommodation and activity rates.</p>
-         <div id="pictures">
-        <img src="img/turks.png" alt="me" width="500" height="350" id=>
-         </div>
-          <h1>Rome, Italy</h1>
-      <p>Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale.Rome is a fabulous mix of history, archeology, art, religion and religious culture and delicious food; and it certainly is the most popular place to visit in Italy. Truth is, Rome is a city that hardly leaves you indifferent. It's the kind of place you either love or hate – and most inevitably love it.Overall, locals tell us that Rome is a safe place to visit. In fact, Rome is one of the safest Italian cities to visit—with a lower rate of theft complaints than Milan, Bologna, and Florence. </p>
-         <div id="pictures">
-        <img src="img/rome.png" alt="me" width="500" height="350">
-         </div>
-      </div>
+	</nav>
 
-    </article>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+	<div class="header">
+
+		<!--Content before waves-->
+		<div class="inner-header flex">
+			<h1>Places to Visit Around the World</h1>
+		</div>
+
+		<!--Waves Container-->
+		<div>
+			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+				</g>
+			</svg>
+		</div>
+		<!--Waves end-->
+
+	</div>
+	<!--Header ends-->
+
+
+	<div id="places">
+		<h1 id="Zealand">South Island, New Zealand</h1>
+		<div class="center">
+			<p id="text">The South Island of New Zealand is renowned for its mountains, lakes and glaciers. The Southern Alps,
+				home to 3,724m-high Aoraki Mt. Cook, run along the entire length of the island. In the southwest is Fiordland
+				National Park, with steep-sided Milford Sound. In the north is Abel Tasman National Park, known for its trails
+				and ocean kayaking. Queenstown is famed for adventure sports like bungee jumping and skiin The Island is
+				well-known for its lakes, glaciers and lush green mountains. The Southern Alps can be found here as well as many
+				national parks and reserves. New Zealand's South Island is now booming because of all the wonderful
+				opportunities that it offers to its tourists Like many other countries, New Zealand bears the scars of
+				colonization with a society almost entirely composed of immigrants. Kiwis however, don't delve in the past. They
+				are open-minded, friendly and welcoming of other nationalities and cultures.</p>
+		</div>
+		<div id="pictures">
+			<img src="img/south.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="Paris">Paris, France</h1>
+		<p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.
+			Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the
+			Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and
+			designer boutiques along the Rue du Faubourg Saint-Honoré. Paris is one of the most expensive cities to visit in
+			Europe. Whilst there are cheap and free activities, the city is famous for its art galleries and fine dining that
+			you won't want to miss completely when visiting Paris. September and October are arguably the best months to be in
+			Paris — a brisk breeze seeps into the air, Paris Fashion Week is in full force, and turning leaves line the city's
+			most scenic jardins. Finally, November and December bring seasonal cheer, French delicacies, and galette des rois
+			in shop windows.
+		<p>
+		<div id="pictures">
+			<img src="img/paris.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="Bora">Bora Bora, French Polynesia</h1>
+		<p>Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed
+			motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a
+			popular luxury resort destination where some guest bungalows are perched over the water on stilts. At the island's
+			center rises Mt. Otemanu, a 727m dormant volcano.
+			Bora Bora is world-famous for its vibrant turquoise lagoon, soft, white sandy stretches of beach and luxurious
+			resorts. With such a dreamlike setting, this magical island is, unsurprisingly, a great spot to plan a getaway.
+		</p>
+		<div id="pictures">
+			<img src="img/bora.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="UAE">Dubai, United Arab Emirates</h1>
+		<p>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a
+			lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot
+			lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis,
+			The Palm, a resort with water and marine-animal parks.Dubai is, in fact, one of the safest Middle Eastern cities
+			for tourists. Its stricter laws mean that crime is kept to a minimum, and many tourists feel much safer in Dubai
+			than they do in other parts of the globe. </p>
+		<div id="pictures">
+			<img src="img/dubai.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="Maldives">Maldives</h1>
+		<p>The Maldive Islands are a series of coral atolls built up from the crowns of a submerged ancient volcanic
+			mountain range. All the islands are low-lying, none rising to more than 6 feet (1.8 metres) above sea level.
+			Barrier reefs protect the islands from the destructive effects of monsoons. The rainy season, from May to August,
+			is brought by the southwest monsoon; from December to March the northeast monsoon brings dry and mild winds. The
+			average annual temperature varies from 76 to 86 °F (24 to 30 °C). Rainfall averages about 84 inches (2,130 mm) per
+			year. The atolls have sandy beaches, lagoons, and a luxuriant growth of coconut palms, together with breadfruit
+			trees and tropical bushes. Fish abound in the reefs, lagoons, and seas adjoining the islands; sea turtles are
+			caught for food and for their oil, a traditional medicine.</p>
+		<div id="pictures">
+			<img src="img/maldives.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="Mauii">Mauii, Hawaii</h1>
+		<p>Maui is an island in the Central Pacific, part of the Hawaiian archipelago. Sprawling Haleakala National Park
+			encompasses the island’s highest peak, volcanic Haleakala, as well as the pools and waterfalls of Ohe’o Gulch,
+			accessed via scenic, winding Hana Highway. The island's 30 miles of beaches include golden-crescent Kapalua,
+			sheltered from strong currents by lava-rock promontories. Maui, known also as “The Valley Isle,” is the second
+			largest Hawaiian island. The island beloved for its world-famous beaches, the sacred ʻĪao Valley, views of
+			migrating humpback whales (during winter months), farm-to-table cuisine and the magnificent sunrise and sunset
+			from Haleakalā.</p>
+		<div id="pictures">
+			<img src="img/mauii.png" alt="me" width="500" height="350">
+		</div>
+		<h1 id="Turks">Turks and Caicos</h1>
+		<p>Turks and Caicos is an archipelago of 40 low-lying coral islands in the Atlantic Ocean, a British Overseas
+			Territory southeast of the Bahamas. The gateway island of Providenciales, known as Provo, is home to expansive
+			Grace Bay Beach, with luxury resorts, shops and restaurants. Scuba-diving sites include a 14-mile barrier reef on
+			Provo’s north shore and a dramatic 2,134m underwater wall off Grand Turk island. For most first time visitors, the
+			best time to visit the Turks and Caicos is February, March, and April. These months offer the best combination of
+			weather, prices, and availability. Late August, September, October, and early November typically have the lowest
+			accommodation and activity rates.</p>
+		<div id="pictures">
+			<img src="img/turks.png" alt="me" width="500" height="350" id=>
+		</div>
+		<h1 id="Rome">Rome, Italy</h1>
+		<p>Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan
+			City of Rome, and a special comune named Comune di Roma Capitale.Rome is a fabulous mix of history, archeology,
+			art, religion and religious culture and delicious food; and it certainly is the most popular place to visit in
+			Italy. Truth is, Rome is a city that hardly leaves you indifferent. It's the kind of place you either love or hate
+			– and most inevitably love it.Overall, locals tell us that Rome is a safe place to visit. In fact, Rome is one of
+			the safest Italian cities to visit—with a lower rate of theft complaints than Milan, Bologna, and Florence. </p>
+		<div id="pictures">
+			<img src="img/rome.png" alt="me" width="500" height="350">
+		</div>
+	</div>
+
+	</article>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+		integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
